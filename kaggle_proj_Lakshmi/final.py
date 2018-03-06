@@ -11,8 +11,8 @@ import numpy as np
 import pandas as pd 
 from sklearn.preprocessing import minmax_scale
 
-submission_1 = pd.read_csv("mysubmission11.csv")                  #0.9851+
-submission_2 = pd.read_csv("superblend_1.csv")                   #0.9854
+submission_1 = pd.read_csv("kaggle_Lakshmi_working/4.ensembling/mysubmission11.csv")                  #0.9851+
+submission_2 = pd.read_csv("kaggle_Lakshmi_working/4.ensembling/superblend_1.csv")                   #0.9854
 
 blend = submission_2.copy()
 col = blend.columns
